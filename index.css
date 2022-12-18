@@ -21,6 +21,9 @@ body {
   width: 100%;
   background: #111;
 }
+.navbar__lines {
+  background: #111;
+}
 .navbar__menu {
   margin: 0;
 }
