@@ -28,10 +28,16 @@ body {
   right: 10px;
   background: #111;
 }
-
+.navbar__close {
+  visibility: hidden;
+  position: absolute;
+  right: 20px;
+}
 .navbar__menu {
   margin: 0;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 768px) {
   .navbar__lines {
