@@ -75,3 +75,11 @@ body {
   position: fixed;
   top: 0;
 }
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}

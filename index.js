@@ -13,5 +13,11 @@ document.addEventListener('scroll', () => {
 });
 
 const menuLines = document.querySelector('.navbar__lines');
+const navbarMenu = document.querySelector('.navbar__menu');
 
-menuLines.addEventListener('click', (e) => {});
+menuLines.addEventListener('click', (e) => {
+  menuLines.classList.remove('visible');
+  navbarMenu.classList.remove('hidden');
+  menuLines.classList.add('hidden');
+  navbarMenu.classList.add('visible');
+});
