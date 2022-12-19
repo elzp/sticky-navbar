@@ -11,3 +11,7 @@ document.addEventListener('scroll', () => {
     navbar.classList.add('fixed');
   }
 });
+
+const menuLines = document.querySelector('.navbar__lines');
+
+menuLines.addEventListener('click', (e) => {});
