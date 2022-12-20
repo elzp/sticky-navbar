@@ -30,8 +30,8 @@ body {
 }
 .navbar__close {
   visibility: hidden;
-  position: absolute;
-  right: 20px;
+  
+  width: min-content;
 }
 .navbar__menu {
   margin: 0;
