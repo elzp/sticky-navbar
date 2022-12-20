@@ -34,3 +34,21 @@ close.addEventListener('click', (e) => {
   close.classList.add('hidden');
   menuLines.classList.add('visible');
 });
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth >= 740) {
+    close.classList.remove('visible');
+    close.classList.add('hidden');
+    menuLines.classList.add('hidden');
+    menuLines.classList.remove('visible');
+    navbarMenu.classList.remove('hidden');
+    navbarMenu.classList.add('visible');
+  } else {
+    close.classList.remove('visible');
+    close.classList.add('hidden');
+    menuLines.classList.remove('hidden');
+    menuLines.classList.remove('visible');
+    navbarMenu.classList.remove('visible');
+    navbarMenu.classList.add('hidden');
+  }
+});
